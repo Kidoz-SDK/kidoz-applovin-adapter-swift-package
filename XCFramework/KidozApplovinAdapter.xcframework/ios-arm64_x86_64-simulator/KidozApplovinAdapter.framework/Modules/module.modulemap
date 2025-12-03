@@ -1,0 +1,11 @@
+framework module KidozApplovinAdapter {
+  umbrella header "KidozApplovinAdapter.h"
+  export *
+
+  module * { export * }
+}
+
+module KidozApplovinAdapter.Swift {
+  header "KidozApplovinAdapter-Swift.h"
+  requires objc
+}

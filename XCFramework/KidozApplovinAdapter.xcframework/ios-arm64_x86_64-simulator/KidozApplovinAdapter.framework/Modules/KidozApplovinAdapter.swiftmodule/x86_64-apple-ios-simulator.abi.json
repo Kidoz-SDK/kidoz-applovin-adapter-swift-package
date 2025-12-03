@@ -1,0 +1,1329 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "KidozApplovinAdapter",
+    "printedName": "KidozApplovinAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KidozApplovinAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KidozSDK",
+        "printedName": "KidozSDK",
+        "declKind": "Import",
+        "moduleName": "KidozApplovinAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KidozAppLovinSDKInfo",
+        "printedName": "KidozAppLovinSDKInfo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSdkVersion",
+            "printedName": "getSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KidozApplovinAdapter0A15AppLovinSDKInfoC13getSdkVersionSSyFZ",
+            "mangledName": "$s20KidozApplovinAdapter0A15AppLovinSDKInfoC13getSdkVersionSSyFZ",
+            "moduleName": "KidozApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkSDKVersion",
+            "printedName": "networkSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KidozApplovinAdapter0A15AppLovinSDKInfoC17networkSDKVersionSSyFZ",
+            "mangledName": "$s20KidozApplovinAdapter0A15AppLovinSDKInfoC17networkSDKVersionSSyFZ",
+            "moduleName": "KidozApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterSDKVersion",
+            "printedName": "adapterSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KidozApplovinAdapter0A15AppLovinSDKInfoC17adapterSDKVersionSSyFZ",
+            "mangledName": "$s20KidozApplovinAdapter0A15AppLovinSDKInfoC17adapterSDKVersionSSyFZ",
+            "moduleName": "KidozApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KidozAppLovinSDKInfo",
+                "printedName": "KidozApplovinAdapter.KidozAppLovinSDKInfo",
+                "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozAppLovinSDKInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozAppLovinSDKInfo(im)init",
+            "mangledName": "$s20KidozApplovinAdapter0A15AppLovinSDKInfoCACycfc",
+            "moduleName": "KidozApplovinAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozAppLovinSDKInfo",
+        "mangledName": "$s20KidozApplovinAdapter0A15AppLovinSDKInfoC",
+        "moduleName": "KidozApplovinAdapter",
+        "objc_name": "KidozAppLovinSDKInfo",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "KidozApplovinAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KidozSDK",
+        "printedName": "KidozSDK",
+        "declKind": "Import",
+        "moduleName": "KidozApplovinAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KidozMediationAdapter",
+        "printedName": "KidozMediationAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterInitializationParameters",
+                "printedName": "any AppLovinSDK.MAAdapterInitializationParameters",
+                "usr": "c:objc(pl)MAAdapterInitializationParameters"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AppLovinSDK.MAAdapterInitializationStatus, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MAAdapterInitializationStatus",
+                        "printedName": "AppLovinSDK.MAAdapterInitializationStatus",
+                        "usr": "c:@E@MAAdapterInitializationStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)initializeWithParameters:completionHandler:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C10initialize4with17completionHandlerySo33MAAdapterInitializationParameters_p_ySo0iJ6StatusV_SSSgtctF",
+            "moduleName": "KidozApplovinAdapter",
+            "overriding": true,
+            "objc_name": "initializeWithParameters:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "SDKVersion",
+            "printedName": "SDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KidozApplovinAdapter0a9MediationC0C10SDKVersionSSyF",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C10SDKVersionSSyF",
+            "moduleName": "KidozApplovinAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KidozApplovinAdapter0a9MediationC0C14adapterVersionSSyF",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C14adapterVersionSSyF",
+            "moduleName": "KidozApplovinAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInitSuccess",
+            "printedName": "onInitSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInitSuccess",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C13onInitSuccessyyF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInitSuccess",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInitError",
+            "printedName": "onInitError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInitError:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C11onInitErroryySSF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInitError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdViewAd",
+            "printedName": "loadAdViewAd(for:adFormat:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdFormat",
+                "printedName": "AppLovinSDK.MAAdFormat",
+                "usr": "c:objc(cs)MAAdFormat"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdViewAdapterDelegate",
+                "printedName": "any AppLovinSDK.MAAdViewAdapterDelegate",
+                "usr": "c:objc(pl)MAAdViewAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)loadAdViewAdForParameters:adFormat:andNotify:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C010loadAdViewF03for8adFormat9andNotifyySo27MAAdapterResponseParameters_p_So04MAAdJ0CSo0pgC8Delegate_ptF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "loadAdViewAdForParameters:adFormat:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdLoaded",
+            "printedName": "onBannerAdLoaded(kidozBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozBannerView",
+                "printedName": "KidozSDK.KidozBannerView",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onBannerAdLoadedWithKidozBannerView:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C16onBannerAdLoaded05kidozF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onBannerAdLoadedWithKidozBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdFailedToLoad",
+            "printedName": "onBannerAdFailedToLoad(kidozBannerView:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozBannerView",
+                "printedName": "KidozSDK.KidozBannerView",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozError",
+                "printedName": "KidozSDK.KidozError",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onBannerAdFailedToLoadWithKidozBannerView:error:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C22onBannerAdFailedToLoad05kidozF4View5errory0A3SDK0afL0C_AG0A5ErrorCtF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onBannerAdFailedToLoadWithKidozBannerView:error:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdShown",
+            "printedName": "onBannerAdShown(kidozBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozBannerView",
+                "printedName": "KidozSDK.KidozBannerView",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onBannerAdShownWithKidozBannerView:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C15onBannerAdShown05kidozF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onBannerAdShownWithKidozBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdFailedToShow",
+            "printedName": "onBannerAdFailedToShow(kidozBannerView:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozBannerView",
+                "printedName": "KidozSDK.KidozBannerView",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozError",
+                "printedName": "KidozSDK.KidozError",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onBannerAdFailedToShowWithKidozBannerView:error:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C22onBannerAdFailedToShow05kidozF4View5errory0A3SDK0afL0C_AG0A5ErrorCtF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onBannerAdFailedToShowWithKidozBannerView:error:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdImpression",
+            "printedName": "onBannerAdImpression(kidozBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozBannerView",
+                "printedName": "KidozSDK.KidozBannerView",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onBannerAdImpressionWithKidozBannerView:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C20onBannerAdImpression05kidozF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onBannerAdImpressionWithKidozBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdClosed",
+            "printedName": "onBannerAdClosed(kidozBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozBannerView",
+                "printedName": "KidozSDK.KidozBannerView",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onBannerAdClosedWithKidozBannerView:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C16onBannerAdClosed05kidozF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onBannerAdClosedWithKidozBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitialAd",
+            "printedName": "loadInterstitialAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAInterstitialAdapterDelegate",
+                "printedName": "any AppLovinSDK.MAInterstitialAdapterDelegate",
+                "usr": "c:objc(pl)MAInterstitialAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)loadInterstitialAdForParameters:andNotify:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C18loadInterstitialAd3for9andNotifyySo27MAAdapterResponseParameters_p_So014MAInterstitialC8Delegate_ptF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "loadInterstitialAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterstitialAd",
+            "printedName": "showInterstitialAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAInterstitialAdapterDelegate",
+                "printedName": "any AppLovinSDK.MAInterstitialAdapterDelegate",
+                "usr": "c:objc(pl)MAInterstitialAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)showInterstitialAdForParameters:andNotify:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C18showInterstitialAd3for9andNotifyySo27MAAdapterResponseParameters_p_So014MAInterstitialC8Delegate_ptF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "showInterstitialAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdLoaded",
+            "printedName": "onInterstitialAdLoaded(kidozInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozInterstitialAd",
+                "printedName": "KidozSDK.KidozInterstitialAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInterstitialAdLoadedWithKidozInterstitialAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C22onInterstitialAdLoaded05kidozfG0y0A3SDK0afG0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInterstitialAdLoadedWithKidozInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdFailedToLoad",
+            "printedName": "onInterstitialAdFailedToLoad(kidozError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozError",
+                "printedName": "KidozSDK.KidozError",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInterstitialAdFailedToLoadWithKidozError:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C28onInterstitialAdFailedToLoad10kidozErrory0A3SDK0aL0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInterstitialAdFailedToLoadWithKidozError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdShown",
+            "printedName": "onInterstitialAdShown(kidozInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozInterstitialAd",
+                "printedName": "KidozSDK.KidozInterstitialAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInterstitialAdShownWithKidozInterstitialAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C21onInterstitialAdShown05kidozfG0y0A3SDK0afG0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInterstitialAdShownWithKidozInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdFailedToShow",
+            "printedName": "onInterstitialAdFailedToShow(kidozInterstitialAd:kidozError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozInterstitialAd",
+                "printedName": "KidozSDK.KidozInterstitialAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozInterstitialAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozError",
+                "printedName": "KidozSDK.KidozError",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInterstitialAdFailedToShowWithKidozInterstitialAd:kidozError:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C28onInterstitialAdFailedToShow05kidozfG00K5Errory0A3SDK0afG0C_AG0aL0CtF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInterstitialAdFailedToShowWithKidozInterstitialAd:kidozError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialImpression",
+            "printedName": "onInterstitialImpression(kidozInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozInterstitialAd",
+                "printedName": "KidozSDK.KidozInterstitialAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInterstitialImpressionWithKidozInterstitialAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C24onInterstitialImpression05kidozF2Ady0A3SDK0afI0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInterstitialImpressionWithKidozInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdClosed",
+            "printedName": "onInterstitialAdClosed(kidozInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozInterstitialAd",
+                "printedName": "KidozSDK.KidozInterstitialAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onInterstitialAdClosedWithKidozInterstitialAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C22onInterstitialAdClosed05kidozfG0y0A3SDK0afG0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onInterstitialAdClosedWithKidozInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MARewardedAdapterDelegate",
+                "printedName": "any AppLovinSDK.MARewardedAdapterDelegate",
+                "usr": "c:objc(pl)MARewardedAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)loadRewardedAdForParameters:andNotify:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C14loadRewardedAd3for9andNotifyySo27MAAdapterResponseParameters_p_So010MARewardedC8Delegate_ptF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "loadRewardedAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showRewardedAd",
+            "printedName": "showRewardedAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MARewardedAdapterDelegate",
+                "printedName": "any AppLovinSDK.MARewardedAdapterDelegate",
+                "usr": "c:objc(pl)MARewardedAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)showRewardedAdForParameters:andNotify:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C14showRewardedAd3for9andNotifyySo27MAAdapterResponseParameters_p_So010MARewardedC8Delegate_ptF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "showRewardedAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdLoaded",
+            "printedName": "onRewardedAdLoaded(kidozRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozRewardedAd",
+                "printedName": "KidozSDK.KidozRewardedAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardedAdLoadedWithKidozRewardedAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C18onRewardedAdLoaded05kidozfG0y0A3SDK0afG0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardedAdLoadedWithKidozRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdFailedToLoad",
+            "printedName": "onRewardedAdFailedToLoad(kidozError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozError",
+                "printedName": "KidozSDK.KidozError",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardedAdFailedToLoadWithKidozError:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C24onRewardedAdFailedToLoad10kidozErrory0A3SDK0aL0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardedAdFailedToLoadWithKidozError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdShown",
+            "printedName": "onRewardedAdShown(kidozRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozRewardedAd",
+                "printedName": "KidozSDK.KidozRewardedAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardedAdShownWithKidozRewardedAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C17onRewardedAdShown05kidozfG0y0A3SDK0afG0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardedAdShownWithKidozRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdFailedToShow",
+            "printedName": "onRewardedAdFailedToShow(kidozRewardedAd:kidozError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozRewardedAd",
+                "printedName": "KidozSDK.KidozRewardedAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozRewardedAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozError",
+                "printedName": "KidozSDK.KidozError",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardedAdFailedToShowWithKidozRewardedAd:kidozError:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C24onRewardedAdFailedToShow05kidozfG00K5Errory0A3SDK0afG0C_AG0aL0CtF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardedAdFailedToShowWithKidozRewardedAd:kidozError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedImpression",
+            "printedName": "onRewardedImpression(kidozRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozRewardedAd",
+                "printedName": "KidozSDK.KidozRewardedAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardedImpressionWithKidozRewardedAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C20onRewardedImpression05kidozF2Ady0A3SDK0afI0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardedImpressionWithKidozRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardReceived",
+            "printedName": "onRewardReceived(kidozRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozRewardedAd",
+                "printedName": "KidozSDK.KidozRewardedAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardReceivedWithKidozRewardedAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C16onRewardReceived15kidozRewardedAdy0A3SDK0aiJ0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardReceivedWithKidozRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdClosed",
+            "printedName": "onRewardedAdClosed(kidozRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KidozRewardedAd",
+                "printedName": "KidozSDK.KidozRewardedAd",
+                "usr": "c:@M@KidozSDK@objc(cs)KidozRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)onRewardedAdClosedWithKidozRewardedAd:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C18onRewardedAdClosed05kidozfG0y0A3SDK0afG0C_tF",
+            "moduleName": "KidozApplovinAdapter",
+            "objc_name": "onRewardedAdClosedWithKidozRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)destroy",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C7destroyyyF",
+            "moduleName": "KidozApplovinAdapter",
+            "overriding": true,
+            "objc_name": "destroy",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdk:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KidozMediationAdapter",
+                "printedName": "KidozApplovinAdapter.KidozMediationAdapter",
+                "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ALSdk",
+                "printedName": "AppLovinSDK.ALSdk",
+                "usr": "c:objc(cs)ALSdk"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)initWithSdk:",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C3sdkACSo5ALSdkC_tcfc",
+            "moduleName": "KidozApplovinAdapter",
+            "deprecated": true,
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithSdk:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KidozMediationAdapter",
+                "printedName": "KidozApplovinAdapter.KidozMediationAdapter",
+                "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter(im)init",
+            "mangledName": "$s20KidozApplovinAdapter0a9MediationC0CACycfc",
+            "moduleName": "KidozApplovinAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KidozApplovinAdapter@objc(cs)KidozMediationAdapter",
+        "mangledName": "$s20KidozApplovinAdapter0a9MediationC0C",
+        "moduleName": "KidozApplovinAdapter",
+        "objc_name": "KidozMediationAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ALMediationAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AppLovinSDK.ALMediationAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "KidozInitDelegate",
+            "printedName": "KidozInitDelegate",
+            "usr": "c:@M@KidozSDK@objc(pl)KidozInitDelegate",
+            "mangledName": "$s8KidozSDK0A12InitDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KidozBannerDelegate",
+            "printedName": "KidozBannerDelegate",
+            "usr": "c:@M@KidozSDK@objc(pl)KidozBannerDelegate",
+            "mangledName": "$s8KidozSDK0A14BannerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KidozInterstitialDelegate",
+            "printedName": "KidozInterstitialDelegate",
+            "usr": "c:@M@KidozSDK@objc(pl)KidozInterstitialDelegate",
+            "mangledName": "$s8KidozSDK0A20InterstitialDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KidozRewardedDelegate",
+            "printedName": "KidozRewardedDelegate",
+            "usr": "c:@M@KidozSDK@objc(pl)KidozRewardedDelegate",
+            "mangledName": "$s8KidozSDK0A16RewardedDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SDKInitDelegate",
+            "printedName": "SDKInitDelegate",
+            "usr": "c:@M@KidozSDK@objc(pl)SDKInitDelegate",
+            "mangledName": "$s8KidozSDK15SDKInitDelegateP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

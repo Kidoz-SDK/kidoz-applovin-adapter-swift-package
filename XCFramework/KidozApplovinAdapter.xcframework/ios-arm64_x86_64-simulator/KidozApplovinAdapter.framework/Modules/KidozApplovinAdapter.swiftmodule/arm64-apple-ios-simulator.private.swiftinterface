@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KidozApplovinAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AppLovinSDK
+import Foundation
+@_exported import KidozApplovinAdapter
+import KidozSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc(KidozAppLovinSDKInfo) public class KidozAppLovinSDKInfo : ObjectiveC.NSObject {
+  public static func getSdkVersion() -> Swift.String
+  public static func networkSDKVersion() -> Swift.String
+  public static func adapterSDKVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(KidozMediationAdapter) public class KidozMediationAdapter : AppLovinSDK.ALMediationAdapter, AppLovinSDK.MAAdViewAdapter, AppLovinSDK.MAInterstitialAdapter, AppLovinSDK.MARewardedAdapter, KidozSDK.KidozInitDelegate, KidozSDK.KidozBannerDelegate, KidozSDK.KidozInterstitialDelegate, KidozSDK.KidozRewardedDelegate {
+  @objc override dynamic public func initialize(with parameters: any AppLovinSDK.MAAdapterInitializationParameters, completionHandler: @escaping (AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> Swift.Void)
+  public func SDKVersion() -> Swift.String
+  public func adapterVersion() -> Swift.String
+  @objc public func onInitSuccess()
+  @objc public func onInitError(_ error: Swift.String)
+  @objc public func loadAdViewAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, adFormat: AppLovinSDK.MAAdFormat, andNotify delegate: any AppLovinSDK.MAAdViewAdapterDelegate)
+  @objc public func onBannerAdLoaded(kidozBannerView: KidozSDK.KidozBannerView)
+  @objc public func onBannerAdFailedToLoad(kidozBannerView: KidozSDK.KidozBannerView, error: KidozSDK.KidozError)
+  @objc public func onBannerAdShown(kidozBannerView: KidozSDK.KidozBannerView)
+  @objc public func onBannerAdFailedToShow(kidozBannerView: KidozSDK.KidozBannerView, error: KidozSDK.KidozError)
+  @objc public func onBannerAdImpression(kidozBannerView: KidozSDK.KidozBannerView)
+  @objc public func onBannerAdClosed(kidozBannerView: KidozSDK.KidozBannerView)
+  @objc public func loadInterstitialAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MAInterstitialAdapterDelegate)
+  @objc public func showInterstitialAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MAInterstitialAdapterDelegate)
+  @objc public func onInterstitialAdLoaded(kidozInterstitialAd ad: KidozSDK.KidozInterstitialAd)
+  @objc public func onInterstitialAdFailedToLoad(kidozError error: KidozSDK.KidozError)
+  @objc public func onInterstitialAdShown(kidozInterstitialAd ad: KidozSDK.KidozInterstitialAd)
+  @objc public func onInterstitialAdFailedToShow(kidozInterstitialAd: KidozSDK.KidozInterstitialAd, kidozError: KidozSDK.KidozError)
+  @objc public func onInterstitialImpression(kidozInterstitialAd: KidozSDK.KidozInterstitialAd)
+  @objc public func onInterstitialAdClosed(kidozInterstitialAd ad: KidozSDK.KidozInterstitialAd)
+  @objc public func loadRewardedAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func showRewardedAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func onRewardedAdLoaded(kidozRewardedAd ad: KidozSDK.KidozRewardedAd)
+  @objc public func onRewardedAdFailedToLoad(kidozError: KidozSDK.KidozError)
+  @objc public func onRewardedAdShown(kidozRewardedAd ad: KidozSDK.KidozRewardedAd)
+  @objc public func onRewardedAdFailedToShow(kidozRewardedAd ad: KidozSDK.KidozRewardedAd, kidozError: KidozSDK.KidozError)
+  @objc public func onRewardedImpression(kidozRewardedAd ad: KidozSDK.KidozRewardedAd)
+  @objc public func onRewardReceived(kidozRewardedAd ad: KidozSDK.KidozRewardedAd)
+  @objc public func onRewardedAdClosed(kidozRewardedAd: KidozSDK.KidozRewardedAd)
+  @objc override dynamic public func destroy()
+  @available(*, deprecated, message: "This API is deprecated and will be removed in a future SDK version. Please use `-[ALMediationAdapter init] instead.")
+  @objc override dynamic public init(sdk: AppLovinSDK.ALSdk)
+  @objc override dynamic public init()
+  @objc deinit
+}
