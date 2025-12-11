@@ -1,11 +1,11 @@
 {
   "pins" : [
     {
-      "identity" : "kidozsdk-swift-package",
+      "identity" : "core-sdk-swift-package",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Kidoz-SDK/kidozsdk-swift-package.git",
+      "location" : "https://github.com/Kidoz-SDK/core-sdk-swift-package.git",
       "state" : {
-        "revision" : "2f245e042b8d37b5778aa35e6a8682becdb6b9fd",
+        "revision" : "f8f0ef9d853dbab52ef7b1fa21200d9ac846a1a4",
         "version" : "10.1.3"
       }
     }

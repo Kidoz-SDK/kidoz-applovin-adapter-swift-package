@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "KidozApplovinAdapter",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v12) // or your minimum supported version
     ],
     products: [
         .library(
@@ -12,14 +12,14 @@ let package = Package(
             targets: ["KidozApplovinAdapter"]
         )
     ],
+    dependencies: [
+        // Dependency on core SDK
+        .package(url: "https://github.com/Kidoz-SDK/core-sdk-swift-package.git", from: "10.1.3")
+    ],
     targets: [
         .binaryTarget(
             name: "KidozApplovinAdapter",
-            url: "https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/refs/heads/main/mediation/applovin/2.0.2/KidozApplovinAdapter.zip",
-            checksum: "96244d017f38239cd669c9c22f4d0e3d00efecf65b1875008c79cd1d507a1e7e"
-        ),
-        dependencies: [
-            .package(url: "https://github.com/Kidoz-SDK/core-sdk-swift-package.git", from: "")
-        ]
+            path: "XCFramework/KidozApplovinAdapter.xcframework"
+        )
     ]
 )
