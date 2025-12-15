@@ -8,25 +8,9 @@
 		<data>
 		nSgpMgN8g8VYvymUD6ick3UdcKg=
 		</data>
-		<key>Frameworks/KidozSDK.framework/Info.plist</key>
-		<data>
-		QRz3WRmlslEpljvf6llsaQ6ikl4=
-		</data>
-		<key>Frameworks/KidozSDK.framework/KidozSDK</key>
-		<data>
-		JvUCdj/IJgt3nUJcd2fMtTgMXJ8=
-		</data>
-		<key>Frameworks/KidozSDK.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		GCX7P8BQLFBwm55QPlRdv8SQCCc=
-		</data>
-		<key>Frameworks/KidozSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		xmplIPnInLcl8ymTCIaA4r5hno4=
-		</data>
 		<key>Headers/KidozApplovinAdapter-Swift.h</key>
 		<data>
-		cPRDJS/sBfNj/2iRk4JIx1tU6f0=
+		+lL7YzAFxmNWzW3r2TNVh+gIgfA=
 		</data>
 		<key>Headers/KidozApplovinAdapter.h</key>
 		<data>
@@ -34,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5gGeXvtf0Isi/To6h5Okh4Wp+50=
+		B3v/faCRYCMTtZouy5CnW8Emf1k=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ihswBlqk4O+NdgSkUEMUqLW69a8=
+		7zu1SAXfLO+gbAU6ARLYN0SAz/8=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6mUaKjF7yR4+owW5L+l9ZyRl9Aw=
+		rIz8SyYhOZlw7zrvvOyr1q+DlrE=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mdeOTUj6uyFBwInN7Plzq+1RVE8=
+		23hPeWqa7PYssgWW7yaCxU2cTts=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6mUaKjF7yR4+owW5L+l9ZyRl9Aw=
+		rIz8SyYhOZlw7zrvvOyr1q+DlrE=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5an0eoD8lsJ0kdDXzmyrZdzL6Wo=
+		1GV+TYyjHCLaaBxrpzCi5cleVXQ=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ihswBlqk4O+NdgSkUEMUqLW69a8=
+		7zu1SAXfLO+gbAU6ARLYN0SAz/8=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UTylnGiO6dqWo6ZzWOXpaBTwbW0=
+		dOsfXZKEgGjMpjYl3y75lYeZBQM=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mduL3A/uPwneiQ2aoIiEU9B0xBY=
+		PJvHv8yqeMTLVMW+S0lsgZ0PnAA=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UTylnGiO6dqWo6ZzWOXpaBTwbW0=
+		dOsfXZKEgGjMpjYl3y75lYeZBQM=
 		</data>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vxN60iTxtTcgfwH2b1GCHh6vyFc=
+		+OGiotw4n2hym3RqudZl6WfCLuw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,76 +73,20 @@
 	<dict>
 		<key>AdapterConfiguration.xcconfig</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nSgpMgN8g8VYvymUD6ick3UdcKg=
-			</data>
 			<key>hash2</key>
 			<data>
 			QLpN7RqYmou3fWksHo5+oVzZB7cJb7GC3jfGP5Km9Jg=
 			</data>
 		</dict>
-		<key>Frameworks/KidozSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QRz3WRmlslEpljvf6llsaQ6ikl4=
-			</data>
-			<key>hash2</key>
-			<data>
-			07gqjf4MerRajkgaD9hu1jtSErv3RzZ6E5lV8c3CgZ0=
-			</data>
-		</dict>
-		<key>Frameworks/KidozSDK.framework/KidozSDK</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JvUCdj/IJgt3nUJcd2fMtTgMXJ8=
-			</data>
-			<key>hash2</key>
-			<data>
-			tOnXYrRUj3Mx0Am05a8hlsuIIlY1JlwOwzV00hWa7Dw=
-			</data>
-		</dict>
-		<key>Frameworks/KidozSDK.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GCX7P8BQLFBwm55QPlRdv8SQCCc=
-			</data>
-			<key>hash2</key>
-			<data>
-			/suF3+f+7nqNIGAmvgYhODsbtGUSU5U1YURk6leWk6s=
-			</data>
-		</dict>
-		<key>Frameworks/KidozSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xmplIPnInLcl8ymTCIaA4r5hno4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ARepBiQSo8hz4XRc710KyxY3binw+lS0uI0gp41uOnU=
-			</data>
-		</dict>
 		<key>Headers/KidozApplovinAdapter-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cPRDJS/sBfNj/2iRk4JIx1tU6f0=
-			</data>
 			<key>hash2</key>
 			<data>
-			lu8wzEUHBuDtdAs6DMq7l21c9n6L4zgjUxN8lqYuBN4=
+			YPCdk+4YQCCnudYIv4CD/Xtzv66xqyMONk4WQIMQTCs=
 			</data>
 		</dict>
 		<key>Headers/KidozApplovinAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iuvvWkMliDGuD36hYqMsWKsbXK0=
-			</data>
 			<key>hash2</key>
 			<data>
 			IA+hujXe9pHAWPqmW2G0CaVniJBWUSa89EYx0aHCGDY=
@@ -166,120 +94,76 @@
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ihswBlqk4O+NdgSkUEMUqLW69a8=
-			</data>
 			<key>hash2</key>
 			<data>
-			vANF3iVIFvMID1HdYswU3QsvYPp4UzMHF3sZrqoKxMQ=
+			ufSBUBXBvcW3XnnpHRNGlvNo3T2najg16kCdJd7bi00=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6mUaKjF7yR4+owW5L+l9ZyRl9Aw=
-			</data>
 			<key>hash2</key>
 			<data>
-			WIE/0hN+Nqx3e774wzPMSXYbbjoEw6nDrtP+cYunzyk=
+			g61YsNFkuepr2fokM04aSIOq77H0E91W4dPfMZnu23U=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mdeOTUj6uyFBwInN7Plzq+1RVE8=
-			</data>
 			<key>hash2</key>
 			<data>
-			WKu8UH1iiKIAx7oT8Rnn+I2U/gxRvsUNlTUyHb4tbGA=
+			8iODV/iBOeNp17c+7mQBaFlKadUlg9lyfPAKbkSc9RI=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6mUaKjF7yR4+owW5L+l9ZyRl9Aw=
-			</data>
 			<key>hash2</key>
 			<data>
-			WIE/0hN+Nqx3e774wzPMSXYbbjoEw6nDrtP+cYunzyk=
+			g61YsNFkuepr2fokM04aSIOq77H0E91W4dPfMZnu23U=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5an0eoD8lsJ0kdDXzmyrZdzL6Wo=
-			</data>
 			<key>hash2</key>
 			<data>
-			iwd4507ywbOz4hwmry4mJUw4RnwWjdIgmftSzThVUtw=
+			fmRrJE8FQNhm+jlQbnG0YyG3Xbml2qg6J7B3F5B37/A=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ihswBlqk4O+NdgSkUEMUqLW69a8=
-			</data>
 			<key>hash2</key>
 			<data>
-			vANF3iVIFvMID1HdYswU3QsvYPp4UzMHF3sZrqoKxMQ=
+			ufSBUBXBvcW3XnnpHRNGlvNo3T2najg16kCdJd7bi00=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UTylnGiO6dqWo6ZzWOXpaBTwbW0=
-			</data>
 			<key>hash2</key>
 			<data>
-			g/gAq7DnUhhfCn7zs35osp0Sxk/4XsX/WNdsm887gb4=
+			DHBxlx8CkHroWidi15Le7qd/QkMnPjUtkKajAsWvwWU=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mduL3A/uPwneiQ2aoIiEU9B0xBY=
-			</data>
 			<key>hash2</key>
 			<data>
-			tYoGE1HH///IKIKNLkntXSEs0ZKmio7jSbE+qdVLUP4=
+			iB3HWy2/bumEGBRM8Mqp6jKyDuIAyAEK6ZCx5mUG8bU=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UTylnGiO6dqWo6ZzWOXpaBTwbW0=
-			</data>
 			<key>hash2</key>
 			<data>
-			g/gAq7DnUhhfCn7zs35osp0Sxk/4XsX/WNdsm887gb4=
+			DHBxlx8CkHroWidi15Le7qd/QkMnPjUtkKajAsWvwWU=
 			</data>
 		</dict>
 		<key>Modules/KidozApplovinAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vxN60iTxtTcgfwH2b1GCHh6vyFc=
-			</data>
 			<key>hash2</key>
 			<data>
-			pDxbJzB02BCNMrMtROfbHF1OIZl4FkDyX76mqz3+Jgs=
+			4JsM92NwiGvIsntFJCMhOCd4wNJUe+Gnuttz4dvrAEA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pI6OLhJvTugBv1zXerywlq/0HJA=
-			</data>
 			<key>hash2</key>
 			<data>
 			m8Okf3gNVZI2uzZCxswMKtZ7PoFFsdji0r2GbUzvyPs=
@@ -287,10 +171,6 @@
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0RESd+++ZxZWQhIEMSOOvP7phYs=
-			</data>
 			<key>hash2</key>
 			<data>
 			pwgfFQbJDo5nMQDlwWHnZbi3piREbiC9S9bvrKgICLg=
