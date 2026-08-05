@@ -14,13 +14,16 @@ let package = Package(
     ],
     dependencies: [
         // Dependency on core SDK
-        .package(url: "https://github.com/Kidoz-SDK/kidoz-sdk-swift-package.git", from: "10.1.3")
+        .package(url: "https://github.com/Kidoz-SDK/kidoz-sdk-swift-package.git", from: "10.1.3"),
+        // Dependency on mediation network SDK
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", "11.4.4"..<"14.0.0")
     ],
     targets: [
         .target(
             name: "KidozApplovinAdapterTarget",
             dependencies: [
                 .product(name: "KidozSDK", package: "kidoz-sdk-swift-package"),
+                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
                 "KidozApplovinAdapter"
             ]
         ),
